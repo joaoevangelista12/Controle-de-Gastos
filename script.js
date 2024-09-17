@@ -7,15 +7,15 @@ function onChangePassword(){
     toggleBotoesDesabilitados()
     togglePasswordErro()
 }
-function login(){
+function loginUser(){
     window.location.href = "home.html"
 }
 
-function recover() {
+function recoverPassword() {
     window.location.href = "recover.html"
 }
 
-function register(){
+function registerUser(){
     window.location.href = "register.html"
 }
 
